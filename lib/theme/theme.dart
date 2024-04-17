@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_project_setup/theme/colors.dart';
 import 'package:flutter_project_setup/theme/custom_themes/appbar_theme.dart';
 import 'package:flutter_project_setup/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:flutter_project_setup/theme/custom_themes/checkbox_theme.dart';
@@ -11,8 +12,8 @@ import 'package:flutter_project_setup/theme/custom_themes/textfield_theme.dart';
 ThemeData lightMode = ThemeData(
   useMaterial3: true,
   brightness: Brightness.light,
-  primaryColor: Colors.blue[500],
-  scaffoldBackgroundColor: Colors.white,
+  primaryColor: primary,
+  scaffoldBackgroundColor: white,
   textTheme: lightTextTheme,
   elevatedButtonTheme: lightElevatedButtonTheme,
   appBarTheme: lightAppBarTheme,
